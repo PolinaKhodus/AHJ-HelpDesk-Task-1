@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const Ticket = require("./Ticket");
 
 class TicketsList {
