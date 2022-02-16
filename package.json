@@ -1,23 +1,33 @@
 {
-  "name": "ahj",
+  "name": "http-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "homework",
+  "main": "server.js",
   "scripts": {
     "prestart": "npm install",
     "start": "forever server.js",
     "watch": "forever -w server.js"
   },
-  "author": "coursar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PolinaKhodus/AHJ-HelpDesk-Task-1.git"
+  },
+  "author": "PolinaKhodus",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PolinaKhodus/AHJ-HelpDesk-Task-1/issues"
+  },
+  "homepage": "https://github.com/PolinaKhodus/AHJ-HelpDesk-Task-1#readme",
   "dependencies": {
-    "forever": "^3.0.4",
+    "forever": "^4.0.1",
     "koa": "^2.13.1",
     "koa-body": "^4.2.0",
     "koa-static": "^5.0.0",
     "uuid": "^8.3.2"
   },
-  "engines": {
-    "node": "10.x"
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2"
   }
 }
